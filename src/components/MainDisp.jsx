@@ -17,13 +17,3 @@ const MainDisp = (props) => {
     return  comp1;
    }
 export default MainDisp;
-
-// const mydata = {name : "Pradnya", rollno : 320, city : "Sangli"}
-// mydata.name
-
-// const arr1 = ["Pradnya", "Rahul", "Mau"]
-// arr1[1]
-
-// myComp1 = [{name : "Pradnya", rollno : 320}, { name : "Rahul", rollno : 321}, {name : "Mau", rollno : 450, friends : ["pannag"]}]
-// myComp1[3]["rollno"][0]
-
