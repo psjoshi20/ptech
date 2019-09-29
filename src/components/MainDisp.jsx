@@ -10,7 +10,6 @@ const MainDisp = (props) => {
     } else if ( props.page === 2) {
      comp1 =  <ContactMe style1={props.style1}/>;
     } else if ( props.page === 3) {
-        console.log("In Regions");
         comp1 =  <Regions/>;
     } else { 
       comp1 = <Weather/>;

@@ -1,15 +1,22 @@
 import React, { useState } from 'react';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles'
-import Paper from '@material-ui/core/Paper';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
 import MainDisp from './components/MainDisp';
 import TopBar from './components/TopBar';
 
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
+  },
+  root2: {
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+  },
+  chip: {
+    margin: theme.spacing(1),
+    width: 160,
+    height: 80
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -35,6 +42,11 @@ const useStyles = makeStyles(theme => ({
     margin: 10,
     width: 240,
     height: 240,
+  },
+  midAvatar: {
+    margin: 10,
+    width: 60,
+    height: 60,
   },
   socMediaIcon : {width: 60, height : 60},
   socMediaText : {marginTop: 120},

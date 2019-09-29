@@ -2,9 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
-import Paper from '@material-ui/core/Paper';
 
-const message1 = "About  Me";
 
 const AboutMe = (props) => {
     return    <Grid container direction="row" justify="center"   alignItems="center">

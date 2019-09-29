@@ -1,6 +1,6 @@
 import React from 'react';
 
-import getWeatherData, { useWeather }  from '../data/2hourweather';
+import useWeather  from '../data/2hourweather';
 
 
 
