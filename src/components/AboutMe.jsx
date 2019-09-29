@@ -13,7 +13,17 @@ const AboutMe = (props) => {
                 </Grid>
                 <Grid item xs={9}>
                         <Typography component="div" className={props.style1.para1} >
-                            Before I found out about this community, I felt really alone – all my female peers from school have left the industry. I didn’t know where to go to further develop my technical skills or bounce ideas with. So I was delighted when I came across a TechLadies ad on Facebook! It’s amazing to see that there is a community of women, people just like me, who are in the tech industry and are open to learning new technologies.ver the past 2 years I had been trying to build competency through online courses and workshops, but was always aware that building an application involved much more than just knowing how to write code – equally important are the design process, working in a team, and project management element that simply cannot be taught online
+                        Hello, I am Pradnya Joshi. 
+                        I am a Homemaker.My daily routine revolves around my family activities .I have an educational background in computer programming and fundamentals. Recently, I have started to learn again and refresh my knowledge in software Technologies in my free time. 
+                        I am actively looking ways to explore opportunities to learn and grow my knowledge. 
+
+                        I first came upon TechLadies website in my some search related web development . That piqued my curiosity to find out more on the TechLadies website. My takeaway impression from the site was that it was a great initiative that brings people together to explore their interest in technology and encourage sharing of their knowledge.
+
+                        I was looking for an avenue to practice and learn web development skills . I searched may skill development courses offered in mySkillfuture. I chanced upon a videos on the TechLadies Bootcamps. The projects shared in the video looked interesting, and I liked how the programme provided the opportunity to learn directly from coaches and work with a group of fellow peers on a project.
+
+                        I am really keen on getting into the programme I had spent quite a bit of time researching and watching YouTube videos to do up an application that is required as part of the bootcamp application..
+
+                        I want to work on an app for an actual company with a real problem, I believe that the bootcamp can help me in Practical experience working on an actual app. I need a A structured program with clear objectives and an achievable goal and also I believe good coach and mentors with actual industry knowledge will help me through this.
                         </Typography>
                 </Grid>
               </Grid>;

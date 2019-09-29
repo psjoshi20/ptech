@@ -31,7 +31,7 @@ const Weather = () => {
                         </li>))  : "Loading weather data ..."
             }
         </ul>
-        </div>;
+        </div>
 }
 
 export default Weather;
