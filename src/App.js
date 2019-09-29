@@ -35,7 +35,10 @@ const useStyles = makeStyles(theme => ({
     margin: 10,
     width: 240,
     height: 240,
-  }
+  },
+  socMediaIcon : {width: 60, height : 60},
+  socMediaText : {marginTop: 120},
+  para1: { backgroundColor: '#eeeeee', height: '240px', padding: '30px', border : '30px' , margin: '30px'}
 }));
 
 
