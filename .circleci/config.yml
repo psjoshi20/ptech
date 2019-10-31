@@ -5,6 +5,10 @@ jobs:
       - image: circleci/node:8.10 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: npm install
-      - run: npm run build
+      - run: 
+          command: npm install
+      - run:
+          command: npm run build
+      - store_artifacts:
+          path: build
 
